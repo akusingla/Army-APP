@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="btn1">Mode Of Entry</string>
+    <string  name="btn2">PC</string>
+    <string  name="btn3">SSC</string>
+    <string  name="btn4">Join TA as Officer</string>
+    <string  name="btn5">Commission Into Army</string>
+
+
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat1">Chief Of Army Staff</string>
+    <string name="cat2">Officer\'s</string>
+    <string name="cat3">JCO\'s &amp; OR</string>
+    <string name="cat4">Term Condition of Allowance Service</string>
+    <string name="cat5">Latest News</string>
+    <string name="cat6">FAQ\'s</string>
+    <string name="cat7">Downloads</string>
+    <string name="cat8">Contact Us</string>
+
+</resources>

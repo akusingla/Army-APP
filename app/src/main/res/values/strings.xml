@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Indian Army</string>
+    <string name="title_activity_home_screen">INDIAN ARMY</string>
+    <string name="image">image</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Choose</string>
+    <string name="title_activity_officer">Officer\'s</string>
+    <string name="title_activity_ico">Jco\'s</string>
+</resources>

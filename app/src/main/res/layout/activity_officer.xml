@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="indian_army.army.Activities.OfficerActivity"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:id="@+id/container_ico">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/armyLogo"
+            android:src="@mipmap/army_logogo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/image" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+
+            android:text="@string/app_name"
+            android:id="@+id/textView"
+            android:textSize="48sp"
+            style="@style/Base.TextAppearance.AppCompat.Inverse" />
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/emeLogo"
+            android:src="@mipmap/eme_logo"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/btn1"
+    android:onClick="mode"
+    android:id="@+id/btn1"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="48dp"
+    android:height="50dp"
+    android:width="300dp"
+    android:backgroundTint="#1F1F1F"
+    style="@style/Base.TextAppearance.AppCompat.Inverse"
+    android:enabled="true"
+    android:elegantTextHeight="true"
+    android:background="@mipmap/dark"
+    android:textStyle="bold" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/btn2"
+    android:onClick="pc"
+    android:id="@+id/btn2"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:height="50dp"
+    android:width="300dp"
+    android:backgroundTint="#1F1F1F"
+    style="@style/Base.TextAppearance.AppCompat.Inverse"
+    android:enabled="true"
+    android:elegantTextHeight="true"
+    android:background="@mipmap/dark"
+    android:textStyle="bold" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/btn3"
+    android:onClick="ssc"
+    android:id="@+id/btn3"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:height="50dp"
+    android:width="300dp"
+    android:backgroundTint="#1F1F1F"
+    style="@style/Base.TextAppearance.AppCompat.Inverse"
+    android:enabled="true"
+    android:elegantTextHeight="true"
+    android:background="@mipmap/dark"
+    android:textStyle="bold" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/btn4"
+    android:onClick="tao"
+    android:id="@+id/btn4"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:height="50dp"
+    android:width="300dp"
+    android:backgroundTint="#1F1F1F"
+    style="@style/Base.TextAppearance.AppCompat.Inverse"
+    android:enabled="true"
+    android:elegantTextHeight="true"
+    android:background="@mipmap/dark"
+    android:textStyle="bold" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/btn5"
+    android:onClick="commission"
+    android:id="@+id/btn5"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:height="50dp"
+    android:width="300dp"
+    android:backgroundTint="#1F1F1F"
+    style="@style/Base.TextAppearance.AppCompat.Inverse"
+    android:enabled="true"
+    android:elegantTextHeight="true"
+    android:background="@mipmap/dark"
+    android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
